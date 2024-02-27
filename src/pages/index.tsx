@@ -8,7 +8,7 @@ const LogoImage = () => {
     return (
         <Image
             src={logo}
-            alt="nexgeneerz.io"
+            alt="cloudopsmaster.in"
             width="350"
             height="300"
         />
@@ -20,10 +20,10 @@ export default function Home() {
         <section className="h-screen flex bg-gradient-to-br from-pink-600 to-cyan-500">
             <div className="py-8 px-4 m-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
                 <div className="h-20">
-                    <a href="https://nexgeneerz.io" target="_blank" className="cursor-pointer">
+                    <a href="https://cloudopsmaster.in" target="_blank" className="cursor-pointer">
                         <Image
                             src={logo.src}
-                            alt="nexgeneerz.io – Hands-on Consulting for Cloud Computing"
+                            alt="cloudopsmaster.in – Hands-on Consulting for Cloud Computing"
                             width="200"
                             height="50"
                             className="mx-auto"
@@ -36,7 +36,7 @@ export default function Home() {
                     infrastructure solutions for your business, <br/> cost-effectively and in a short time. </p>
                 <div
                     className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-                    <a href="https://nexgeneerz.io/cloud-for-startups-aws/" target="_blank"
+                    <a href="https://cloudopsmaster.in/cloud-for-startups-aws/" target="_blank"
                        className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300">
                         Learn more
                         <svg className="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
