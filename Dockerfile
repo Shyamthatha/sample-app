@@ -5,7 +5,7 @@ WORKDIR /src
 COPY src/package.json src/package-lock.json ./
 RUN npm install --production
 
-FROM node:18-alpine AS builder
+FROM node:20-alpine AS builder
 WORKDIR /src
 COPY --from=deps /src/node_modules ./node_modules
 COPY ./src .
@@ -14,7 +14,7 @@ ENV NEXT_TELEMETRY_DISABLED 1
 
 RUN npm run build
 
-FROM node:18-alpine AS runner
+FROM node:20-alpine AS runner
 WORKDIR /src
 
 ENV NODE_ENV production
