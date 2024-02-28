@@ -30,8 +30,7 @@ export default function Home() {
                         />
                     </a>
                 </div>
-                <h1 className="mb-16 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl text-white">Cloud & Devops
-                    foundation for your success<span className="text-pink-600">.</span></h1>
+                <h1 className="mb-16 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl text-white">Cloud and Devops foundation for your success<span className="text-pink-600">.</span></h1>
                 <p className="mb-8 text-lg font-normal lg:text-xl sm:px-16 xl:px-48 text-white">Build fully-automated
                     infrastructure solutions for your business, <br/> cost-effectively and in a short time. </p>
                 <div
